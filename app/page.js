@@ -10,8 +10,48 @@ const manrope = Manrope({
 export default function Home() {
   return (
     <>
-      <div className="bg-black">
-        <div className="navbar bg-black">
+      <div className="bg-black min-h-screen flex flex-col items-start place-content-center w-full space-y-5">
+        <div className="navbar navbar-center md:fixed md:top-0">
+          {/* <div className="dropdown">
+            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </label>
+            <ul
+              tabIndex={0}
+              className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li>
+                <a>Item 1</a>
+              </li>
+              <li>
+                <a>Parent</a>
+                <ul className="p-2">
+                  <li>
+                    <a>Submenu 1</a>
+                  </li>
+                  <li>
+                    <a>Submenu 2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Item 3</a>
+              </li>
+            </ul>
+          </div> */}
           <Image
             src="/dsc-logo.png"
             alt="Dramatic scripts' logo"
@@ -23,22 +63,34 @@ export default function Home() {
           </a>
         </div>
 
-        <div>
-          <p className="font-extrabold text-6xl ml-8 mt-4 w-2/4 text-white">
-            <span className="bg-gradient-to-r from-indigo-500 rounded-3xl">
-              Empower your
-            </span>{" "}
-            roleplay dreams with affordable & custom scripts.
-          </p>
-          <div className="flex mt-16">
+        <p className="font-extrabold text-4xl pt-4 md:pt-0 w-fit md:text-6xl ml-8 md:w-2/5 text-white">
+          <span className="bg-gradient-to-r from-indigo-500 rounded-xl">
+            Empower your
+          </span>{" "}
+          roleplay dreams with affordable & custom scripts.
+        </p>
+
+        <div className="hidden md:flex md:flex-row md:absolute md:self-end md:mr-20 md:w-2/5 md:h-4/5 md:overflow-hidden">
+          <Image
+            src="/1.png"
+            alt="backpack image"
+            fill
+            className="object-cover"
+          ></Image>
+        </div>
+
+        <div className="flex flex-col sm:flex-row md:flex-row w-fit">
+          <div className="flex flex-row">
             <Image
               src="/version.png"
               alt="file version vector drawing"
               height={6}
               width={40}
-              className="ml-8"
+              className="ml-10 md:ml-8"
             ></Image>
             <p className="font-bold text-xl text-zinc-500">Latest version</p>
+          </div>
+          <div className="flex flex-row">
             <Image
               src="/price.png"
               alt="price tag vector drawing"
@@ -47,6 +99,8 @@ export default function Home() {
               className="ml-10"
             ></Image>
             <p className="font-bold text-xl text-zinc-500">Affordable prices</p>
+          </div>
+          <div className="flex flex-row">
             <Image
               src="/support.png"
               alt="support vector drawing"
@@ -58,45 +112,63 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex mt-9 mb-3 ml-8">
+        <div className="flex flex-col gap-5 pb-32 sm:flex-row md:pb-0 md:gap-0 btn-lg md:flex-row md:ml-8">
           <a
             href="/scripts"
             role="button"
-            className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg rounded-full btn-wide btn-primary"
+            className="btn ml-5 btn-md md:ml-0 md:btn-lg rounded-full btn-wide btn-primary"
           >
             Explore scripts
           </a>
           <a
-            href="https://docs.dramaticrp.in"
+            href="https://docs.dramaticrp.in/"
             role="button"
-            className="btn ml-10 btn-outline btn-xs sm:btn-sm md:btn-md lg:btn-lg rounded-full btn-wide btn-primary"
+            className="btn ml-5 btn-outline btn-md md:btn-lg rounded-full btn-wide btn-primary"
           >
-            Documantation
+            Documentation
           </a>
-          {/* <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg rounded-full btn-wide btn-primary">
-            Explore scripts
-          </button>
-          <button className="btn ml-10 btn-outline btn-xs sm:btn-sm md:btn-md lg:btn-lg rounded-full btn-wide btn-primary">
-            Documantation
-          </button> */}
         </div>
 
-        <div className="flex mt-1 outline outline-1 outline-slate-700 text-white p-3">
+        <div className="md:fixed md:bottom-0 md:gap-0 gap-3 items-center flex flex-col md:flex-row w-full outline outline-1 outline-slate-700 text-white p-3">
           <div className="items-center grid-flow-col">
             <p>Dramatic Scripts © 2023 - All right reserved</p>
           </div>
-          <div className="flex flex-row ml-auto mr-20 gap-3">
+          <div className="flex flex-row md:ml-auto md:mr-20 md:gap-3">
             <a href="https://discord.gg/ZMsddhmTAf">
-              <Image src="/discord.svg" alt="" height={2} width={25}></Image>
+              <Image
+                src="/discord.svg"
+                alt=""
+                height={2}
+                width={25}
+                className="w-64 h-10 md:w-8 md:h-auto"
+              ></Image>
             </a>
             <a href="https://www.youtube.com/@DramaticScripts">
-              <Image src="/youtube.svg" alt="" height={2} width={25}></Image>
+              <Image
+                src="/youtube.svg"
+                alt=""
+                height={2}
+                width={25}
+                className="w-64 h-10 md:w-8 md:h-auto"
+              ></Image>
             </a>
             <a href="https://www.twitter.com/YagnaRDK">
-              <Image src="/twitter.svg" alt="" height={2} width={25}></Image>
+              <Image
+                src="/twitter.svg"
+                alt=""
+                height={2}
+                width={25}
+                className="w-64 h-10 md:w-8 md:h-auto"
+              ></Image>
             </a>
             <a href="https://www.instagram.com/dramaticscripts/">
-              <Image src="/instagram.svg" alt="" height={2} width={25}></Image>
+              <Image
+                src="/instagram.svg"
+                alt=""
+                height={2}
+                width={25}
+                className="w-64 h-10 md:w-8 md:h-auto"
+              ></Image>
             </a>
           </div>
         </div>

@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Custom selector colour */
+::-moz-selection {
+    /* Code for Firefox */
+    color: rgb(255, 255, 255);
+    background: rgb(165, 126, 255);
+}
+
+::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(165, 126, 255);
+}
+
 /* glass box */
 .glass-box {
     /* padding: 100px; */
@@ -14,6 +27,15 @@
     backdrop-filter: blur(6.9px);
     -webkit-backdrop-filter: blur(6.9px);
     border: 1px solid rgb(255, 255, 255);
+}
+
+/* footer glass effect */
+.footer_glass {
+    background: rgba(0, 0, 0, 0.75);
+        box-shadow: 0 8px 32px 0 rgba(28, 28, 28, 0.37);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 /* Card */

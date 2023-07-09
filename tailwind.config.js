@@ -6,13 +6,7 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
-    },
+    extend: {},
   },
   plugins: [require("daisyui")],
 
@@ -27,5 +21,4 @@ module.exports = {
   //   prefix: "", // prefix for daisyUI classnames (components, modifiers and responsive class names. Not colors)
   //   logs: true, // Shows info about daisyUI version and used config in the console when building your CSS
   // },
-
 };
