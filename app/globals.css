@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-image: url('/web.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+        background-size: cover;
+}
+
 
 /* Custom selector colour */
 ::-moz-selection {
@@ -90,7 +97,7 @@
 /* Shadow */
 .shadow_guju {
     transition: box-shadow .3s;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .shadow_guju:hover {

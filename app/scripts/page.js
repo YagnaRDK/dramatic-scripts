@@ -20,8 +20,8 @@ const manrope = Manrope({
 export default function ScriptsPage() {
   return (
     <>
-      <div className="bg-black">
-        <div className="flex flex-col sm:flex-row navbar">
+      <div className="bg-black min-w-[100vw] overflow-hidden">
+        <div className="flex flex-col sm:flex-row navbar min-w-[100vw] overflow-hidden">
           <div className="flex flex-col sm:hidden">
             <div className="flex flex-row w-full items-center">
               <div className="navbar-start">
@@ -44,13 +44,13 @@ export default function ScriptsPage() {
             <div className=" flex flex-row content-center">
               <ul className="menu menu-horizontal px-1 text-xl text-slate-400">
                 <li className="hover:text-white">
-                  <a href="/">Home</a>
-                </li>
-                <li className="hover:text-white">
                   <a href="https://dramatic.tebex.io/about">About</a>
                 </li>
                 <li className="hover:text-white">
-                  <a href="/staff">Staff</a>
+                  <a href="/scripts">Scripts</a>
+                </li>
+                <li className="hover:text-white">
+                  <a href="/reviews">Reviews</a>
                 </li>
               </ul>
             </div>
@@ -70,10 +70,10 @@ export default function ScriptsPage() {
                 <a href="https://dramatic.tebex.io/about">About</a>
               </li>
               <li className="hover:text-white">
-                <a href="/reviews">Reviews</a>
+                <a href="/scripts">Scripts</a>
               </li>
               <li className="hover:text-white">
-                <a href="/staff">Staff</a>
+                <a href="/reviews">Reviews</a>
               </li>
             </ul>
           </div>
@@ -94,9 +94,10 @@ export default function ScriptsPage() {
         {/* <div className="divider fill-white m-4"></div> */}
         <hr className="rounded-full m-4 self-center"></hr>
 
-        <div className="gap-6 grid sm:grid-cols-2 md:grid-cols-3 min-h-screen">
+        {/* <div className="gap-6 grid sm:grid-cols-2 md:grid-cols-3 min-h-screen bg-red-600"> */}
+        <div className="bg-red-600 flex flex-row flex-1 justify-center items-center flex-wrap overflow-x-hidden min-h-screen max-h-content min-w-[100vw] max-w-[100vw]">
           {/* Add new scripts below */}
-          <div className="flex flex-col place-content-center items-center w-full h-full">
+          <div className="bg-yellow-600 flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
             <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
               <figure>
                 <Image src={rings} alt="article-cover" />
@@ -136,7 +137,7 @@ export default function ScriptsPage() {
             </div>
           </div>
 
-          <div className="flex flex-col place-content-center items-center w-full h-full">
+          <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
             <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
               <figure>
                 <Image src={dustbin} alt="article-cover" />
@@ -176,7 +177,7 @@ export default function ScriptsPage() {
             </div>
           </div>
 
-          <div className="flex flex-col place-content-center items-center w-full h-full">
+          <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
             <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
               <figure>
                 <Image src={carModes} alt="article-cover" />
@@ -216,7 +217,7 @@ export default function ScriptsPage() {
             </div>
           </div>
 
-          <div className="flex flex-col place-content-center items-center w-full h-full">
+          <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
             <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
               <figure>
                 <Image src={crafting} alt="article-cover" />
@@ -254,7 +255,7 @@ export default function ScriptsPage() {
             </div>
           </div>
 
-          <div className="flex flex-col place-content-center items-center w-full h-full">
+          <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
             <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
               <figure>
                 <Image src={car_radio} alt="article-cover" />
@@ -292,7 +293,7 @@ export default function ScriptsPage() {
             </div>
           </div>
 
-          <div className="flex flex-col place-content-center items-center w-full h-full">
+          <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
             <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
               <figure>
                 <Image src={wep_bak} alt="article-cover" />
@@ -330,7 +331,7 @@ export default function ScriptsPage() {
             </div>
           </div>
 
-          <div className="flex flex-col place-content-center items-center w-full h-full">
+          <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
             <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
               <figure>
                 <Image src={phone} alt="article-cover" />
@@ -368,7 +369,7 @@ export default function ScriptsPage() {
             </div>
           </div>
 
-          <div className="flex flex-col place-content-center items-center w-full h-full">
+          <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
             <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
               <figure>
                 <Image src={skateboard} alt="article-cover" />
@@ -406,7 +407,7 @@ export default function ScriptsPage() {
             </div>
           </div>
 
-          <div className="flex flex-col place-content-center items-center w-full h-full">
+          <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
             <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
               <figure>
                 <Image src={backpack} alt="article-cover" />

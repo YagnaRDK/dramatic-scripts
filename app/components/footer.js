@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="md:gap-0 gap-3 items-center flex mt-10 flex-col md:flex-row w-full outline outline-1 outline-slate-700 text-white p-3">
+    <div className="md:gap-0 gap-3 items-center flex mt-10 flex-col md:flex-row w-full outline outline-1 outline-slate-700 text-white p-3 min-w-[100vw] overflow-hidden">
       <div className="items-center grid-flow-col">
         <p>Dramatic Scripts © 2023 - All right reserved</p>
       </div>

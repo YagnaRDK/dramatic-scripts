@@ -10,7 +10,7 @@ const manrope = Manrope({
 export default function Home() {
   return (
     <>
-      <div className="bg-black min-h-screen flex flex-col items-start place-content-center w-full space-y-5">
+      <div className="bgcustom min-h-screen flex flex-col items-start place-content-center w-full space-y-5">
         <div className="navbar navbar-center md:fixed md:top-0">
           {/* <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -52,15 +52,17 @@ export default function Home() {
               </li>
             </ul>
           </div> */}
-          <Image
-            src="/dsc-logo.png"
-            alt="Dramatic scripts' logo"
-            height={100}
-            width={100}
-          ></Image>
-          <a className="btn btn-ghost normal-case text-xl text-white">
-            Dramatic Scripts
+          <a href="/">
+            <Image
+              src="/dsc-logo.png"
+              alt="Dramatic scripts' logo"
+              height={100}
+              width={100}
+            ></Image>
           </a>
+          {/* <a href="/" className="btn btn-ghost normal-case text-xl text-white">
+            Dramatic Scripts
+          </a> */}
         </div>
 
         <p className="font-extrabold text-4xl pt-4 md:pt-0 w-fit md:text-6xl ml-8 md:w-2/5 text-white">
