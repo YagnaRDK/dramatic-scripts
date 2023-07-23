@@ -133,7 +133,20 @@ export default function Home() {
 
         <div className="md:fixed md:bottom-0 md:gap-0 gap-3 items-center flex flex-col md:flex-row w-full outline outline-1 outline-slate-700 text-white p-3">
           <div className="items-center grid-flow-col">
-            <p>Dramatic Scripts © 2023 - All right reserved</p>
+            <p>
+              Dramatic Scripts © 2023 - All right reserved |{" "}
+              <a href="/staff" className="hover:text-purple-500 btn btn-sm">
+                Staff team
+              </a>{" "}
+              |{" "}
+              <a href="/terms" className="hover:text-purple-500 btn btn-sm">
+                Terms
+              </a>{" "}
+              |{" "}
+              <a href="/server" className="hover:text-purple-500 btn btn-sm">
+                Server
+              </a>
+            </p>
           </div>
           <div className="flex flex-row md:ml-auto md:mr-20 md:gap-3">
             <a href="https://discord.gg/ZMsddhmTAf">

@@ -20,17 +20,19 @@ const manrope = Manrope({
 export default function ScriptsPage() {
   return (
     <>
-      <div className="bg-black min-w-[100vw] overflow-hidden">
-        <div className="flex flex-col sm:flex-row navbar min-w-[100vw] overflow-hidden">
+      <div className="overflow-hidden bgcustom">
+        <div className="flex flex-col sm:flex-row navbar overflow-hidden">
           <div className="flex flex-col sm:hidden">
             <div className="flex flex-row w-full items-center">
               <div className="navbar-start">
-                <Image
-                  src="/dsc-logo.png"
-                  alt="Dramatic scripts' logo"
-                  height={100}
-                  width={100}
-                ></Image>
+                <a href="/">
+                  <Image
+                    src="/dsc-logo.png"
+                    alt="Dramatic scripts' logo"
+                    height={100}
+                    width={100}
+                  ></Image>
+                </a>
               </div>
               <div className="navbar-end">
                 <a
@@ -46,7 +48,7 @@ export default function ScriptsPage() {
                 <li className="hover:text-white">
                   <a href="https://dramatic.tebex.io/about">About</a>
                 </li>
-                <li className="hover:text-white">
+                <li className="text-white bg-zinc-500 rounded-md">
                   <a href="/scripts">Scripts</a>
                 </li>
                 <li className="hover:text-white">
@@ -56,20 +58,22 @@ export default function ScriptsPage() {
             </div>
           </div>
           <div className="invisible sm:visible sm:navbar-start sm:ml-10">
-            <Image
-              src="/dsc-logo.png"
-              alt="Dramatic scripts' logo"
-              height={100}
-              width={100}
-              className="invisible sm:visible h-0 w-0 sm:h-auto sm:w-auto"
-            ></Image>
+            <a href="/">
+              <Image
+                src="/dsc-logo.png"
+                alt="Dramatic scripts' logo"
+                height={100}
+                width={100}
+                className="invisible sm:visible h-0 w-0 sm:h-auto sm:w-auto"
+              ></Image>
+            </a>
           </div>
           <div className="invisible sm:visible sm:navbar-center sm:content-center">
             <ul className="menu menu-horizontal sm:px-1 sm:text-xl mr-10 text-slate-400">
               <li className="hover:text-white">
                 <a href="https://dramatic.tebex.io/about">About</a>
               </li>
-              <li className="hover:text-white">
+              <li className="text-white bg-zinc-500 rounded-md">
                 <a href="/scripts">Scripts</a>
               </li>
               <li className="hover:text-white">
@@ -95,9 +99,9 @@ export default function ScriptsPage() {
         <hr className="rounded-full m-4 self-center"></hr>
 
         {/* <div className="gap-6 grid sm:grid-cols-2 md:grid-cols-3 min-h-screen bg-red-600"> */}
-        <div className="bg-red-600 flex flex-row flex-1 justify-center items-center flex-wrap overflow-x-hidden min-h-screen max-h-content min-w-[100vw] max-w-[100vw]">
+        <div className="flex flex-row flex-1 justify-center items-center flex-wrap overflow-x-hidden min-h-screen max-h-content min-w-[100vw] max-w-[100vw]">
           {/* Add new scripts below */}
-          <div className="bg-yellow-600 flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
+          <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
             <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
               <figure>
                 <Image src={rings} alt="article-cover" />
@@ -110,14 +114,16 @@ export default function ScriptsPage() {
                 <div className="card-actions justify-end">
                   <a
                     role="button"
-                    className="btn btn-primary rounded-lg"
+                    // className="btn btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="https://dramatic.tebex.io/package/5761744"
                   >
                     Buy now
                   </a>
                   <a
                     role="button"
-                    className="btn btn-primary glass rounded-lg"
+                    // className="btn glass btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="/scripts/rings"
                   >
                     Know more{" "}
@@ -150,14 +156,14 @@ export default function ScriptsPage() {
                 <div className="card-actions justify-end">
                   <a
                     role="button"
-                    className="btn btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="https://dramatic.tebex.io/package/5748590"
                   >
                     Buy now
                   </a>
                   <a
                     role="button"
-                    className="btn btn-primary glass rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="/scripts/dustbin"
                   >
                     Know more{" "}
@@ -190,14 +196,14 @@ export default function ScriptsPage() {
                 <div className="card-actions justify-end">
                   <a
                     role="button"
-                    className="btn btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="https://dramatic.tebex.io/package/5735998"
                   >
                     Buy now
                   </a>
                   <a
                     role="button"
-                    className="btn btn-primary glass rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="/scripts/car_modes"
                   >
                     Know more{" "}
@@ -228,14 +234,14 @@ export default function ScriptsPage() {
                 <div className="card-actions justify-end">
                   <a
                     role="button"
-                    className="btn btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="https://dramatic.tebex.io/package/5722186"
                   >
                     Buy now
                   </a>
                   <a
                     role="button"
-                    className="btn btn-primary glass rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="/scripts/crafting_table"
                   >
                     Know more{" "}
@@ -266,14 +272,14 @@ export default function ScriptsPage() {
                 <div className="card-actions justify-end">
                   <a
                     role="button"
-                    className="btn btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="https://dramatic.tebex.io/package/5709451"
                   >
                     Buy now
                   </a>
                   <a
                     role="button"
-                    className="btn btn-primary glass rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="/scripts/car_music"
                   >
                     Know more{" "}
@@ -304,14 +310,14 @@ export default function ScriptsPage() {
                 <div className="card-actions justify-end">
                   <a
                     role="button"
-                    className="btn btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="https://dramatic.tebex.io/package/5695115"
                   >
                     Buy now
                   </a>
                   <a
                     role="button"
-                    className="btn btn-primary glass rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="/scripts/weapon_back"
                   >
                     Know more{" "}
@@ -342,14 +348,14 @@ export default function ScriptsPage() {
                 <div className="card-actions justify-end">
                   <a
                     role="button"
-                    className="btn btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="https://dramatic.tebex.io/package/5670439"
                   >
                     Buy now
                   </a>
                   <a
                     role="button"
-                    className="btn btn-primary glass rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="/scripts/phone"
                   >
                     Know more{" "}
@@ -380,14 +386,14 @@ export default function ScriptsPage() {
                 <div className="card-actions justify-end">
                   <a
                     role="button"
-                    className="btn btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="https://dramatic.tebex.io/package/5660364"
                   >
                     Buy now
                   </a>
                   <a
                     role="button"
-                    className="btn btn-primary glass rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="/scripts/skateboard"
                   >
                     Know more{" "}
@@ -418,14 +424,14 @@ export default function ScriptsPage() {
                 <div className="card-actions justify-end">
                   <a
                     role="button"
-                    className="btn btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="https://dramatic.tebex.io/package/5604807"
                   >
                     Buy now
                   </a>
                   <a
                     role="button"
-                    className="btn btn-primary glass rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                     href="/scripts/backpack"
                   >
                     Know more{" "}

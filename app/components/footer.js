@@ -3,9 +3,22 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="md:gap-0 gap-3 items-center flex mt-10 flex-col md:flex-row w-full outline outline-1 outline-slate-700 text-white p-3 min-w-[100vw] overflow-hidden">
+    <div className="md:gap-0 gap-3 items-center flex mt-10 flex-col md:flex-row w-full outline outline-1 outline-slate-700 text-white p-3 overflow-hidden">
       <div className="items-center grid-flow-col">
-        <p>Dramatic Scripts © 2023 - All right reserved</p>
+        <p>
+          Dramatic Scripts © 2023 - All right reserved |{" "}
+          <a href="/staff" className="hover:text-purple-500 btn btn-sm">
+            Staff team
+          </a>{" "}
+          |{" "}
+          <a href="/terms" className="hover:text-purple-500 btn btn-sm">
+            Terms
+          </a>{" "}
+          |{" "}
+          <a href="/server" className="hover:text-purple-500 btn btn-sm">
+            Server
+          </a>
+        </p>
       </div>
       <div className="flex flex-row md:ml-auto md:mr-20 md:gap-3">
         <a href="https://discord.gg/ZMsddhmTAf">
