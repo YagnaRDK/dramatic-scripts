@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="bg-black min-h-screen flex flex-col items-center place-content-center w-full space-y-5">
+      <div className="min-h-screen flex flex-col items-center place-content-center w-full space-y-5">
         <iframe
           width="1920"
           height="1080"
@@ -88,15 +88,9 @@ export default function Home() {
         </p>
         <div className="w-7/12 flex flex-row justify-end text-white">
           <a
-            className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"
+            className="btn btn-md lg:btn-lg text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
             href="https://dramatic.tebex.io/package/5748590"
           >
-            <Image
-              src="/shop.png"
-              alt="support vector drawing"
-              height={6}
-              width={40}
-            ></Image>
             Buy Now
           </a>
         </div>
