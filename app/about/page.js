@@ -227,7 +227,7 @@ export default function StaffPage() {
               >
                 <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                   <h2 className="text-xl font-medium text-white">
-                    What makes oue scripts stand out from others in the market?
+                    What makes our scripts stand out from others in the market?
                   </h2>
 
                   <span className="shrink-0 rounded-full p-1.5 text-white sm:p-3">
@@ -278,8 +278,9 @@ export default function StaffPage() {
 
                 <p className="mt-4 leading-relaxed text-white">
                   Yes, we offer our highly optimized scripts at a very
-                  reasonable price, allowing server owners to enhance their
-                  roleplaying game without significant financial burden.
+                  reasonable price and some at free of cost, allowing server
+                  owners to enhance their roleplaying game without significant
+                  financial burden.
                 </p>
               </details>
 

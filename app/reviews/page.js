@@ -82,7 +82,7 @@ export default function ReviewsPage() {
           </div>
         </div>
         <div className="text-white text-4xl text-centre m-5 font-extrabold">
-          Listen from our dear clients!
+          Voice of our clients!
         </div>
 
         {/* <div className="divider fill-white m-4"></div> */}

@@ -10,6 +10,9 @@ import crafting from "../../public/crafting.png";
 import carModes from "../../public/carModes.png";
 import dustbin from "../../public/dustbin.png";
 import rings from "../../public/rings.png";
+import rental_car from "../../public/rental.png";
+import drugs from "../../public/drugs.png";
+import chat from "../../public/chat.png";
 
 const manrope = Manrope({
   weight: "400",
@@ -100,17 +103,140 @@ export default function ScriptsPage() {
 
         {/* <div className="gap-6 grid sm:grid-cols-2 md:grid-cols-3 min-h-screen bg-red-600"> */}
         <div className="flex flex-row flex-1 justify-center items-center flex-wrap overflow-x-hidden min-h-screen max-h-content min-w-[100vw] max-w-[100vw]">
-          {/* Add new scripts below */}
+          {/* Add new scripts below 
+          <div className="badge badge-secondary">NEW</div>
+          */}
+
+          <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
+            <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
+              <figure>
+                <Image src={rental_car} alt="article-cover" />
+              </figure>
+              <div className="card-body text-white md:text-slate-300 hover:text-white">
+                <h2 className="card-title">Rental</h2>
+                <div className="badge badge-secondary">NEW</div>
+                <p>Rent out some of that bad bois.</p>
+                <div className="card-actions justify-end">
+                  <a
+                    role="button"
+                    // className="btn btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                    href="https://dramatic.tebex.io/package/5813984"
+                  >
+                    Buy now
+                  </a>
+                  <a
+                    role="button"
+                    // className="btn glass btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                    href="/scripts/rental"
+                  >
+                    Know more{" "}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 32 32"
+                      className="w-4 h-4 fill-white"
+                    >
+                      <path
+                        d="m31.71 15.29-10-10-1.42 1.42 8.3 8.29H0v2h28.59l-8.29 8.29 1.41 1.41 10-10a1 1 0 0 0 0-1.41z"
+                        data-name="3-Arrow Right"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
+            <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
+              <figure>
+                <Image src={drugs} alt="article-cover" />
+              </figure>
+              <div className="card-body text-white md:text-slate-300 hover:text-white">
+                <h2 className="card-title">Drugs</h2>
+                <div className="badge badge-secondary">NEW</div>
+                <p>Get high with that white powder!</p>
+                <div className="card-actions justify-end">
+                  <a
+                    role="button"
+                    // className="btn btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                    href="https://dramatic.tebex.io/package/5801379"
+                  >
+                    Buy now
+                  </a>
+                  <a
+                    role="button"
+                    // className="btn glass btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                    href="/scripts/drugs"
+                  >
+                    Know more{" "}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 32 32"
+                      className="w-4 h-4 fill-white"
+                    >
+                      <path
+                        d="m31.71 15.29-10-10-1.42 1.42 8.3 8.29H0v2h28.59l-8.29 8.29 1.41 1.41 10-10a1 1 0 0 0 0-1.41z"
+                        data-name="3-Arrow Right"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
+            <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
+              <figure>
+                <Image src={chat} alt="article-cover" />
+              </figure>
+              <div className="card-body text-white md:text-slate-300 hover:text-white">
+                <h2 className="card-title">Chat</h2>
+                <p>For the better control of your words!</p>
+                <div className="card-actions justify-end">
+                  <a
+                    role="button"
+                    // className="btn btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                    href="https://dramatic.tebex.io/package/5773650"
+                  >
+                    Buy now
+                  </a>
+                  <a
+                    role="button"
+                    // className="btn glass btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                    href="/scripts/chat"
+                  >
+                    Know more{" "}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 32 32"
+                      className="w-4 h-4 fill-white"
+                    >
+                      <path
+                        d="m31.71 15.29-10-10-1.42 1.42 8.3 8.29H0v2h28.59l-8.29 8.29 1.41 1.41 10-10a1 1 0 0 0 0-1.41z"
+                        data-name="3-Arrow Right"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
             <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
               <figure>
                 <Image src={rings} alt="article-cover" />
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
-                <h2 className="card-title">
-                  Rings <div className="badge badge-secondary">NEW</div>
-                </h2>
-                <p>blah_blah_blah_blah blah_blah_blah_blah</p>
+                <h2 className="card-title">Rings</h2>
+                <p>Will you marry me? I&apos;ll give you a dimond ring!</p>
                 <div className="card-actions justify-end">
                   <a
                     role="button"
@@ -149,10 +275,8 @@ export default function ScriptsPage() {
                 <Image src={dustbin} alt="article-cover" />
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
-                <h2 className="card-title">
-                  Dustbin <div className="badge badge-secondary">NEW</div>
-                </h2>
-                <p>blah_blah_blah_blah blah_blah_blah_blah</p>
+                <h2 className="card-title">Dustbin</h2>
+                <p>Let the garbage be where it belongs to!</p>
                 <div className="card-actions justify-end">
                   <a
                     role="button"
@@ -189,10 +313,8 @@ export default function ScriptsPage() {
                 <Image src={carModes} alt="article-cover" />
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
-                <h2 className="card-title">
-                  Car Modes <div className="badge badge-secondary">NEW</div>
-                </h2>
-                <p>blah_blah_blah_blah blah_blah_blah_blah</p>
+                <h2 className="card-title">Car Modes</h2>
+                <p>Get your supercars modified with insane upgrades.</p>
                 <div className="card-actions justify-end">
                   <a
                     role="button"
@@ -230,7 +352,7 @@ export default function ScriptsPage() {
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
                 <h2 className="card-title">Crafting table</h2>
-                <p>blah_blah_blah_blah blah_blah_blah_blah</p>
+                <p>Let&apos;s craft a love bomb to love everyone!</p>
                 <div className="card-actions justify-end">
                   <a
                     role="button"
@@ -268,7 +390,10 @@ export default function ScriptsPage() {
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
                 <h2 className="card-title">Car Music</h2>
-                <p>blah_blah_blah_blah blah_blah_blah_blah</p>
+                <p>
+                  Let the music sink within you as you emerse into deep
+                  roleplay.
+                </p>
                 <div className="card-actions justify-end">
                   <a
                     role="button"
@@ -306,7 +431,7 @@ export default function ScriptsPage() {
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
                 <h2 className="card-title">Weapons on back</h2>
-                <p>blah_blah_blah_blah blah_blah_blah_blah</p>
+                <p>Get the wepons ready, war is about to start.</p>
                 <div className="card-actions justify-end">
                   <a
                     role="button"
@@ -344,7 +469,9 @@ export default function ScriptsPage() {
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
                 <h2 className="card-title">Smart phone</h2>
-                <p>blah_blah_blah_blah blah_blah_blah_blah</p>
+                <p>
+                  Do you have a smart phone? Do you want one? I know you do!
+                </p>
                 <div className="card-actions justify-end">
                   <a
                     role="button"
@@ -382,7 +509,7 @@ export default function ScriptsPage() {
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
                 <h2 className="card-title">Skateboard</h2>
-                <p>blah_blah_blah_blah blah_blah_blah_blah</p>
+                <p>Let&apos;s ride on those wheels for hours and hours...</p>
                 <div className="card-actions justify-end">
                   <a
                     role="button"
@@ -420,7 +547,7 @@ export default function ScriptsPage() {
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
                 <h2 className="card-title">Backpack</h2>
-                <p>blah_blah_blah_blah blah_blah_blah_blah</p>
+                <p>Get set ready, this is going to be a hell of adventure.</p>
                 <div className="card-actions justify-end">
                   <a
                     role="button"
