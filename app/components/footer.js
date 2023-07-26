@@ -43,7 +43,7 @@ export default function Footer() {
             className="w-64 h-10 md:w-8 md:h-auto"
           ></Image>
         </a>
-        <a href="https://www.twitter.com/YagnaRDK">
+        <a href="https://www.twitter.com/">
           <Image
             src="/twitter.svg"
             alt=""
