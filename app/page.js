@@ -58,6 +58,7 @@ export default function Home() {
               alt="Dramatic scripts' logo"
               height={100}
               width={100}
+              className="ml-4"
             ></Image>
           </a>
           {/* <a href="/" className="btn btn-ghost normal-case text-xl text-white">
@@ -66,7 +67,7 @@ export default function Home() {
         </div>
 
         <p className="font-extrabold text-4xl pt-4 md:pt-0 w-fit md:text-6xl ml-8 md:w-2/5 text-white">
-          <span className="bg-gradient-to-r from-indigo-500 rounded-xl">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-800">
             Empower your
           </span>{" "}
           roleplay dreams with affordable & custom scripts.
@@ -114,18 +115,18 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-5 pb-32 sm:flex-row md:pb-0 md:gap-0 btn-lg md:flex-row md:ml-8">
+        <div className="flex flex-col gap-5 pb-32 sm:flex-row md:pb-0 md:gap-0 btn-lg md:flex-row md:ml-4">
           <a
             href="/scripts"
             role="button"
-            className="btn ml-5 btn-md md:ml-0 md:btn-lg rounded-full btn-wide btn-primary"
+            className="btn ml-5 btn-md md:ml-0 md:btn-lg rounded-2xl btn-wide btn-primary"
           >
             Explore scripts
           </a>
           <a
             href="https://docs.dramaticrp.in/"
             role="button"
-            className="btn ml-5 btn-outline btn-md md:btn-lg rounded-full btn-wide btn-primary"
+            className="btn ml-5 btn-outline btn-md md:btn-lg rounded-2xl btn-wide btn-primary"
           >
             Documentation
           </a>
@@ -134,18 +135,31 @@ export default function Home() {
         <div className="md:fixed md:bottom-0 md:gap-0 gap-3 items-center flex flex-col md:flex-row w-full outline outline-1 outline-slate-700 text-white p-3">
           <div className="items-center grid-flow-col">
             <p>
-              Dramatic Scripts © 2023 - All right reserved |{" "}
-              <a href="/staff" className="hover:text-purple-500 btn btn-sm">
+              Dramatic Scripts © 2023 - All right reserved
+              {/* <a href="/staff" className="hover:text-purple-500 btn btn-sm">
                 Staff team
               </a>{" "}
+              |{" "} */}
+              {/* <a
+                href="/partners"
+                className="hover:text-purple-500 btn btn-sm mx-2"
+              >
+                Partners
+              </a>{" "}
               |{" "}
-              <a href="/terms" className="hover:text-purple-500 btn btn-sm">
+              <a
+                href="/terms"
+                className="hover:text-purple-500 btn btn-sm mx-2"
+              >
                 Terms
               </a>{" "}
               |{" "}
-              <a href="/server" className="hover:text-purple-500 btn btn-sm">
+              <a
+                href="/server"
+                className="hover:text-purple-500 btn btn-sm mx-2"
+              >
                 Server
-              </a>
+              </a> */}
             </p>
           </div>
           <div className="flex flex-row md:ml-auto md:mr-20 md:gap-3">

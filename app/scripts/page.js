@@ -46,7 +46,7 @@ export default function ScriptsPage() {
             <div className=" flex flex-row content-center">
               <ul className="menu menu-horizontal px-1 text-xl text-slate-400">
                 <li className="hover:text-white">
-                  <a href="https://dramatic.tebex.io/about">About</a>
+                  <a href="/about">About</a>
                 </li>
                 <li className="text-white bg-zinc-500 rounded-md">
                   <a href="/scripts">Scripts</a>
@@ -71,7 +71,7 @@ export default function ScriptsPage() {
           <div className="invisible sm:visible sm:navbar-center sm:content-center">
             <ul className="menu menu-horizontal sm:px-1 sm:text-xl mr-10 text-slate-400">
               <li className="hover:text-white">
-                <a href="https://dramatic.tebex.io/about">About</a>
+                <a href="/about">About</a>
               </li>
               <li className="text-white bg-zinc-500 rounded-md">
                 <a href="/scripts">Scripts</a>
@@ -91,7 +91,7 @@ export default function ScriptsPage() {
           </div>
         </div>
 
-        <div className="text-white text-4xl text-left m-5 font-extrabold">
+        <div className="text-white text-4xl text-centre m-5 font-extrabold">
           Scripts
         </div>
 
