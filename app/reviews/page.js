@@ -27,7 +27,7 @@ export default function ReviewsPage() {
               </div>
               <div className="navbar-end">
                 <a
-                  className="btn btn-outline btn-primary rounded-full mr-10"
+                  className="btn btn-outline btn-primary rounded-2xl mr-10"
                   href="https://docs.dramaticrp.in/"
                 >
                   Documentation
@@ -74,7 +74,7 @@ export default function ReviewsPage() {
           </div>
           <div className="invisible sm:visible sm:navbar-end sm:content-end">
             <a
-              className="btn btn-outline btn-primary rounded-full"
+              className="btn btn-outline btn-primary rounded-2xl"
               href="https://docs.dramaticrp.in/"
             >
               Documentation

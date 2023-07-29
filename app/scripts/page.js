@@ -39,7 +39,7 @@ export default function ScriptsPage() {
               </div>
               <div className="navbar-end">
                 <a
-                  className="btn btn-outline btn-primary rounded-full mr-10"
+                  className="btn btn-outline btn-primary rounded-2xl mr-10"
                   href="https://docs.dramaticrp.in/"
                 >
                   Documentation
@@ -86,7 +86,7 @@ export default function ScriptsPage() {
           </div>
           <div className="invisible sm:visible sm:navbar-end sm:content-end">
             <a
-              className="btn btn-outline btn-primary rounded-full"
+              className="btn btn-outline btn-primary rounded-2xl"
               href="https://docs.dramaticrp.in/"
             >
               Documentation
@@ -345,7 +345,7 @@ export default function ScriptsPage() {
             </div>
           </div>
 
-          <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
+          {/* <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
             <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
               <figure>
                 <Image src={crafting} alt="article-cover" />
@@ -381,7 +381,7 @@ export default function ScriptsPage() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
             <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
