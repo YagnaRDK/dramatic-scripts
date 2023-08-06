@@ -106,7 +106,7 @@ export default function ScriptsPage() {
         <div className="flex flex-row flex-1 justify-center items-center flex-wrap overflow-x-hidden min-h-screen max-h-content min-w-[100vw] max-w-[100vw]">
           {/* Add new scripts below 
           <div className="badge badge-secondary">NEW</div>
-          <div className="badge badge-secondary">FREE</div>
+          <div className="badge badge-accent">FREE</div>
           <div className="badge badge-accent">Popular</div>
           */}
 
@@ -117,8 +117,7 @@ export default function ScriptsPage() {
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
                 <h2 className="card-title">Elevators</h2>
-                <div className="badge badge-secondary">NEW</div>
-                <div className="badge badge-secondary">FREE</div>
+                <div className="badge badge-accent">FREE</div>
                 <p>Up and down, up and down.</p>
                 <div className="card-actions justify-end">
                   <a
@@ -241,7 +240,7 @@ export default function ScriptsPage() {
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
                 <h2 className="card-title">Chat</h2>
-                <div className="badge badge-secondary">FREE</div>
+                <div className="badge badge-accent">FREE</div>
                 <p>For the better control of your words!</p>
                 <div className="card-actions justify-end">
                   <a
