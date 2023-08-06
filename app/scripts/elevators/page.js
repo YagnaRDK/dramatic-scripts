@@ -2,7 +2,7 @@ import Image from "next/image";
 import Footer from "@/app/components/footer";
 import Header from "@/app/components/header";
 
-export default function Home() {
+export default function WeponBack() {
   return (
     <>
       <Header />
@@ -10,7 +10,7 @@ export default function Home() {
         <iframe
           width="1920"
           height="1080"
-          src="https://www.youtube.com/embed/gZD7qFRiiJs"
+          src="https://www.youtube.com/embed/EAQOgBENzaU"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -25,54 +25,33 @@ export default function Home() {
 
         {/* <br></br><br></br> */}
         <p className="w-7/12 indent-6 font-bold text-sm text-slate-200 md:text-lg">
-          The Enhanced Dramatic Phone is a cutting-edge script designed to
-          provide an effortless and efficient roleplay experience. It is
-          developed using the original QB-phone as a reference and is
-          specifically designed to be installed on the server without any
-          lengthy process.<br></br>
-          <br></br> The phone boasts a sleek and premium design, inspired by the
-          latest smartphone features, making it an elegant device to carry
-          around. Moreover, all the available apps on the Enhanced Dramatic
-          Phone are fully optimized and functional without any glitches or bugs,
-          providing seamless and smooth performance.<br></br>
-          <br></br> With its advanced technology, the Enhanced Dramatic Phone
-          offers a range of features to enhance your roleplay experience.
-          Whether it&apos;s making calls, sending messages, or accessing hidden
-          channels, this device offers the latest and most efficient technology
-          to get things done quickly and easily.<br></br>
-          <br></br> Overall, the Enhanced Dramatic Phone is a top-of-the-line
-          device that provides a premium user experience with its sleek design,
-          optimized apps, and efficient communication features.
+          Introducing Dramatic Elevator, a cutting-edge script meticulously
+          tailored to integrate seamlessly with the qbcore framework. This
+          ingenious creation empowers players to traverse between floors,
+          whisking them away to carefully curated locations, masterfully chosen
+          by the server&apos;s developers. With its unparalleled configurability
+          through the script&apos;s user-friendly config section, server
+          administrators can effortlessly fine-tune every aspect to perfection.
+          <br></br>
+          <br></br>
+          But that&apos;s not all – we&apos;ve taken the immersive experience to
+          add a whole new level! Our script contain Enhanced Emotes system adds
+          a touch of realism to the roleplay interactions within the server.
+          Players can now truly express themselves, showcasing a vast array of
+          emotions while riding the elevator. From subtle nods to over-the-top
+          gestures, the possibilities are limitless, ensuring a memorable and
+          captivating roleplaying experience.
         </p>
 
         <p className="w-7/12 font-bold text-2xl underline decoration-indigo-500 decoration-4 text-slate-200 md:text-4xl">
           Key Features:
         </p>
         <ul className="w-7/12 font-bold text-sm text-slate-200 md:text-lg list-outside list-disc">
-          <li>More than 25 completely unique applications.</li>
-          <li>Gallery with images you click and can share easily.</li>
-          <li>Multiple channels can be created inside the apps.</li>
-          <li>More than 20 ways to config the scripts accordingly.</li>
-          <li>Can set up a multi-job system through the phone.</li>
-          <li>Multiple apps are available for different jobs and users.</li>
-          <li>Phone ringing can be heard by the nearby players.</li>
-          <li>Social Media has a censorship system and a report button.</li>
-          <li>Can sell your vehicle through the garage app.</li>
-          <li>Money can be transferred easily through the bank app.</li>
-          <li>Chats can be deleted when you want them to be deleted.</li>
-          <li>Advertising system for promoting in-game businesses.</li>
-          <li>Houses can be managed through the house app inside.</li>
-          <li>The camera is more optimised than ever to take pictures.</li>
-          <li>Fully customised wallpaper and avatar system.</li>
-          <li>Pinger to temporarily send your location to a player.</li>
-          <li>
-            Personalize your phone with an iPhone-like look, adding a touch of
-            elegance to your device.
-          </li>
-          <li>
-            Enjoy a seamless photography experience with resolved bugs in the
-            camera UI and app.
-          </li>
+          <li>Travel between multiple floors.</li>
+          <li>Supports qb-target for clean usage.</li>
+          <li>Integration animation to make roleplay awesome.</li>
+          <li>Fully customisable through config.lua file.</li>
+          <li>Contain a timmer between traveling through lifts.</li>
         </ul>
 
         <p className="w-7/12 font-bold text-2xl underline decoration-indigo-500 decoration-4 text-slate-200 md:text-4xl">
@@ -99,9 +78,16 @@ export default function Home() {
         </p>
         <div className="w-7/12 flex flex-row justify-end text-white">
           <a
+            // className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg"
             className="btn btn-md lg:btn-lg text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
-            href="https://dramatic.tebex.io/package/5670439"
+            href="https://dramatic.tebex.io/package/5842313"
           >
+            {/* <Image
+              src="/shop.png"
+              alt="support vector drawing"
+              height={6}
+              width={40}
+            ></Image> */}
             Buy Now
           </a>
         </div>
