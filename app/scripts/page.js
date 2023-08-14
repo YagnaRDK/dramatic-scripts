@@ -10,10 +10,11 @@ import crafting from "../../public/crafting.png";
 import carModes from "../../public/carModes.png";
 import dustbin from "../../public/dustbin.png";
 import rings from "../../public/rings.png";
-import rental_car from "../../public/rental.png";
+import rental_car from "../../public/rental.jpg";
 import drugs from "../../public/drugs.png";
 import chat from "../../public/chat.png";
 import elevators from "../../public/elevators.png";
+import camera from "../../public/camera.png";
 
 const manrope = Manrope({
   weight: "400",
@@ -113,6 +114,47 @@ export default function ScriptsPage() {
           <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
             <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
               <figure>
+                <Image src={camera} alt="article-cover" />
+              </figure>
+              <div className="card-body text-white md:text-slate-300 hover:text-white">
+                <h2 className="card-title">Camera</h2>
+                <div className="badge badge-accent">FREE</div>
+                <p>Collect all the beautiful moments with teeny-tiny lens.</p>
+                <div className="card-actions justify-end">
+                  <a
+                    role="button"
+                    // className="btn btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                    href="https://dramatic.tebex.io/package/5854945"
+                  >
+                    Buy now
+                  </a>
+                  <a
+                    role="button"
+                    // className="btn glass btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                    href="/scripts/camera"
+                  >
+                    Know more{" "}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 32 32"
+                      className="w-4 h-4 fill-white"
+                    >
+                      <path
+                        d="m31.71 15.29-10-10-1.42 1.42 8.3 8.29H0v2h28.59l-8.29 8.29 1.41 1.41 10-10a1 1 0 0 0 0-1.41z"
+                        data-name="3-Arrow Right"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
+            <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
+              <figure>
                 <Image src={elevators} alt="article-cover" />
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
@@ -158,7 +200,6 @@ export default function ScriptsPage() {
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
                 <h2 className="card-title">Rental</h2>
-                <div className="badge badge-secondary">NEW</div>
                 <p>Rent out some of that bad bois.</p>
                 <div className="card-actions justify-end">
                   <a
@@ -199,7 +240,6 @@ export default function ScriptsPage() {
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
                 <h2 className="card-title">Drugs</h2>
-                <div className="badge badge-secondary">NEW</div>
                 <p>Get high with that white powder!</p>
                 <div className="card-actions justify-end">
                   <a
