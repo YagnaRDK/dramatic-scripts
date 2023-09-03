@@ -25,7 +25,7 @@ export default function Footer() {
         </p>
       </div>
       <div className="flex flex-row md:ml-auto md:mr-20 md:gap-3">
-        <a href="https://discord.gg/ZMsddhmTAf">
+        <a href="/discord">
           <Image
             src="/discord.svg"
             alt=""
@@ -34,7 +34,7 @@ export default function Footer() {
             className="w-64 h-10 md:w-8 md:h-auto"
           ></Image>
         </a>
-        <a href="https://www.youtube.com/@DramaticScripts">
+        <a href="/youtube">
           <Image
             src="/youtube.svg"
             alt=""
@@ -43,7 +43,7 @@ export default function Footer() {
             className="w-64 h-10 md:w-8 md:h-auto"
           ></Image>
         </a>
-        <a href="https://www.twitter.com/">
+        <a href="/x">
           <Image
             src="/twitter.svg"
             alt=""
@@ -52,7 +52,7 @@ export default function Footer() {
             className="w-64 h-10 md:w-8 md:h-auto"
           ></Image>
         </a>
-        <a href="https://www.instagram.com/dramaticscripts/">
+        <a href="/instagram">
           <Image
             src="/instagram.svg"
             alt=""
