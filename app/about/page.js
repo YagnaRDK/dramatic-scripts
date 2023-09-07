@@ -1,3 +1,4 @@
+import AboutLayout from "./layout";
 import Image from "next/image";
 import Footer from "../components/footer";
 import { Manrope } from "next/font/google";
@@ -8,7 +9,7 @@ const manrope = Manrope({
   display: "swap",
 });
 
-export default function StaffPage() {
+export default function AboutPage() {
   return (
     <>
       <div className="bgcustom">
@@ -413,3 +414,7 @@ export default function StaffPage() {
     </>
   );
 }
+
+AboutPage.getLayout = function getLayout(page) {
+  return <AboutLayout>{page}</AboutLayout>;
+};
