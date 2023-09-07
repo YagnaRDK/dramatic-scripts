@@ -1,6 +1,4 @@
-import "./globals.css";
 import { Manrope } from "next/font/google";
-import clsx from "clsx";
 
 const manrope = Manrope({
   weight: "400",

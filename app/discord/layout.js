@@ -1,6 +1,4 @@
-import "./globals.css";
 import { Manrope } from "next/font/google";
-import clsx from "clsx";
 
 const manrope = Manrope({
   weight: "400",
@@ -26,13 +24,7 @@ export const metadata = {
     "React",
     "JavaScript",
   ],
-  // authors: [
-  //   { name: "Aayush Shankar" },
-  //   { name: "Yagna R.D. Khokhariya", url: "https://twitter.com/YagnaRDK" },
-  // ],
   colorScheme: "dark",
-  // Image: "/drs-thumbnail.png",
-  // creator: "Yagna R.D. Khokhariya",
 };
 
 export default function DiscordLayout({ children }) {
