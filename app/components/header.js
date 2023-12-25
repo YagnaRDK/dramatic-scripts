@@ -24,8 +24,9 @@ export default function Header() {
         <div className="invisible md:visible w-full max-h-max relative">
           <div className="flex flex-col items-center absolute right-5 h-full w-fit place-content-center">
             <a
-              className="btn btn-outline btn-primary rounded-full"
+              className="btn btn-outline btn-primary rounded-2xl"
               href="https://docs.dramaticrp.in/"
+              target="_blank"
             >
               Documentation
             </a>

@@ -28,6 +28,7 @@ export default function AboutPage() {
                 <a
                   className="btn btn-outline btn-primary rounded-2xl mr-10"
                   href="https://docs.dramaticrp.in/"
+                  target="_blank"
                 >
                   Documentation
                 </a>
@@ -73,6 +74,7 @@ export default function AboutPage() {
             <a
               className="btn btn-outline btn-primary rounded-2xl"
               href="https://docs.dramaticrp.in/"
+              target="_blank"
             >
               Documentation
             </a>

@@ -127,6 +127,7 @@ export default function Home() {
             href="https://docs.dramaticrp.in/"
             role="button"
             className="btn ml-5 btn-outline btn-md md:btn-lg rounded-2xl btn-wide btn-primary"
+            target="_blank"
           >
             Documentation
           </a>

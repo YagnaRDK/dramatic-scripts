@@ -77,6 +77,7 @@ export default function ReviewsPage() {
             <a
               className="btn btn-outline btn-primary rounded-2xl"
               href="https://docs.dramaticrp.in/"
+              target="_blank"
             >
               Documentation
             </a>
@@ -93,6 +94,37 @@ export default function ReviewsPage() {
           <section>
             <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
               <div className="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
+                <div className="mb-8 sm:break-inside-avoid">
+                  <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
+                    <p className="leading-relaxed text-white">
+                      I will say that we purchased the DRP-WeaponBack script a
+                      few days ago and honestly with how cheap it is, I
+                      wasn&apos;t hopeful that it was going to be what we wanted
+                      but we are loving it we did have a few issues with
+                      placements on some weapons but after opening a ticket and
+                      talking with Assert Gaming the issues was fixed and update
+                      provided he also added in a new feature to be able to pick
+                      which side weapons sit on the hip. 1000000% recommend this
+                      script we will be continuing to use it on Untamed Serenity
+                      RP, keep up the amazing work!
+                    </p>
+                  </blockquote>
+
+                  <div className="mt-4 flex items-center gap-4">
+                    <Image
+                      alt="review"
+                      src="/review4.webp"
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
+                    />
+
+                    <div className="text-white">
+                      <p className="text-lg">PikeyPoke</p>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="mb-8 sm:break-inside-avoid">
                   <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
                     <p className="leading-relaxed text-white">
