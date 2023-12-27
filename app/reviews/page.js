@@ -97,6 +97,30 @@ export default function ReviewsPage() {
                 <div className="mb-8 sm:break-inside-avoid">
                   <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
                     <p className="leading-relaxed text-white">
+                      Had a lot of problems with installing my scripts (user
+                      error) and Assert was there the whole time to guide me
+                      through it, 10/10 experience. 5 Stars for sure.
+                    </p>
+                  </blockquote>
+
+                  <div className="mt-4 flex items-center gap-4">
+                    <Image
+                      alt="review"
+                      src="/review5.webp"
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
+                    />
+
+                    <div className="text-white">
+                      <p className="text-lg">Envious</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mb-8 sm:break-inside-avoid">
+                  <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
+                    <p className="leading-relaxed text-white">
                       I will say that we purchased the DRP-WeaponBack script a
                       few days ago and honestly with how cheap it is, I
                       wasn&apos;t hopeful that it was going to be what we wanted
