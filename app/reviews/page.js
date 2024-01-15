@@ -97,6 +97,32 @@ export default function ReviewsPage() {
                 <div className="mb-8 sm:break-inside-avoid">
                   <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
                     <p className="leading-relaxed text-white">
+                      I bought the Dramatic phone and encountered a problem and
+                      Assert Gaming really took care of me, I thank him
+                      endlessly and the phone is really good and the price is
+                      very good. I hope you continue your studies until you
+                      become the best. Thanks for your interest and help.
+                    </p>
+                  </blockquote>
+
+                  <div className="mt-4 flex items-center gap-4">
+                    <Image
+                      alt="review"
+                      src="/review6.webp"
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
+                    />
+
+                    <div className="text-white">
+                      <p className="text-lg">Roxien</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mb-8 sm:break-inside-avoid">
+                  <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
+                    <p className="leading-relaxed text-white">
                       Had a lot of problems with installing my scripts (user
                       error) and Assert was there the whole time to guide me
                       through it, 10/10 experience. 5 Stars for sure.
