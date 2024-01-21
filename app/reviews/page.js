@@ -97,6 +97,33 @@ export default function ReviewsPage() {
                 <div className="mb-8 sm:break-inside-avoid">
                   <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
                     <p className="leading-relaxed text-white">
+                      I bought the Dramatic phone and I had an issue with it,
+                      despite him travelling he was still a lot of help! He had
+                      my issue fixed within 10 minutes. This is the type of
+                      support/devving I can vouch for. He was on it without
+                      hesitation and helped no matter what. 10/10 from me.
+                      ⭐⭐⭐⭐⭐
+                    </p>
+                  </blockquote>
+
+                  <div className="mt-4 flex items-center gap-4">
+                    <Image
+                      alt="review"
+                      src="/review7.webp"
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
+                    />
+
+                    <div className="text-white">
+                      <p className="text-lg">Jord</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mb-8 sm:break-inside-avoid">
+                  <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
+                    <p className="leading-relaxed text-white">
                       I bought the Dramatic phone and encountered a problem and
                       Assert Gaming really took care of me, I thank him
                       endlessly and the phone is really good and the price is
@@ -125,7 +152,7 @@ export default function ReviewsPage() {
                     <p className="leading-relaxed text-white">
                       Had a lot of problems with installing my scripts (user
                       error) and Assert was there the whole time to guide me
-                      through it, 10/10 experience. 5 Stars for sure.
+                      through it, 10/10 experience. 5 Stars for sure. ⭐⭐⭐⭐⭐
                     </p>
                   </blockquote>
 
