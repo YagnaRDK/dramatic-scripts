@@ -102,7 +102,6 @@ export default function ReviewsPage() {
                       my issue fixed within 10 minutes. This is the type of
                       support/devving I can vouch for. He was on it without
                       hesitation and helped no matter what. 10/10 from me.
-                      ⭐⭐⭐⭐⭐
                     </p>
                   </blockquote>
 
@@ -115,8 +114,11 @@ export default function ReviewsPage() {
                       className="rounded-full object-cover"
                     />
 
-                    <div className="text-white">
-                      <p className="text-lg">Jord</p>
+                    <div className="flex flex-row text-white items-center gap-2">
+                      <p className="flex text-lg">Jord</p>
+                      <div className="flex badge badge-success rounded-md font-bold text-md">
+                        5/5
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -141,8 +143,11 @@ export default function ReviewsPage() {
                       className="rounded-full object-cover"
                     />
 
-                    <div className="text-white">
-                      <p className="text-lg">Roxien</p>
+                    <div className="flex flex-row text-white items-center gap-2">
+                      <p className="flex text-lg">Roxien</p>
+                      <div className="flex badge badge-success rounded-md font-bold text-md">
+                        4/5
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -152,7 +157,7 @@ export default function ReviewsPage() {
                     <p className="leading-relaxed text-white">
                       Had a lot of problems with installing my scripts (user
                       error) and Assert was there the whole time to guide me
-                      through it, 10/10 experience. 5 Stars for sure. ⭐⭐⭐⭐⭐
+                      through it, 10/10 experience. 5 Stars for sure.
                     </p>
                   </blockquote>
 
@@ -165,8 +170,11 @@ export default function ReviewsPage() {
                       className="rounded-full object-cover"
                     />
 
-                    <div className="text-white">
-                      <p className="text-lg">Envious</p>
+                    <div className="flex flex-row text-white items-center gap-2">
+                      <p className="flex text-lg">Envious</p>
+                      <div className="flex badge badge-success rounded-md font-bold text-md">
+                        5/5
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -196,8 +204,11 @@ export default function ReviewsPage() {
                       className="rounded-full object-cover"
                     />
 
-                    <div className="text-white">
-                      <p className="text-lg">PikeyPoke</p>
+                    <div className="flex flex-row text-white items-center gap-2">
+                      <p className="flex text-lg">PikeyPoke</p>
+                      <div className="flex badge badge-success rounded-md font-bold text-md">
+                        5/5
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -226,8 +237,11 @@ export default function ReviewsPage() {
                       className="rounded-full object-cover"
                     />
 
-                    <div className="text-white">
-                      <p className="text-lg">Vertex</p>
+                    <div className="flex flex-row text-white items-center gap-2">
+                      <p className="flex text-lg">Vertex</p>
+                      <div className="flex badge badge-success rounded-md font-bold text-md">
+                        4.5/5
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -250,8 +264,11 @@ export default function ReviewsPage() {
                       className="rounded-full object-cover"
                     />
 
-                    <div className="text-white">
-                      <p className="text-lg">Jean marcel winston</p>
+                    <div className="flex flex-row text-white items-center gap-2">
+                      <p className="flex text-lg">Jean marcel winston</p>
+                      <div className="flex badge badge-success rounded-md font-bold text-md">
+                        4.5/5
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -276,8 +293,11 @@ export default function ReviewsPage() {
                       className="rounded-full object-cover"
                     />
 
-                    <div className="text-white">
-                      <p className="text-lg">Astro</p>
+                    <div className="flex flex-row text-white items-center gap-2">
+                      <p className="flex text-lg">Astro</p>
+                      <div className="flex badge badge-success rounded-md font-bold text-md">
+                        5/5
+                      </div>
                     </div>
                   </div>
                 </div>
