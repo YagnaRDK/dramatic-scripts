@@ -1,4 +1,4 @@
-import ReviewsLayout from "./layout";
+// import ReviewsLayout from "./layout";
 import Image from "next/image";
 import Footer from "../components/footer";
 import { Manrope } from "next/font/google";
@@ -94,6 +94,34 @@ export default function ReviewsPage() {
           <section>
             <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
               <div className="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
+                <div className="mb-8 sm:break-inside-avoid">
+                  <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
+                    <p className="leading-relaxed text-white">
+                      Excellent service, they were very friendly and helped me
+                      solve my problems perfectly. Your scripts are amazing and
+                      are a great change in the server, I would definitely buy
+                      here again.
+                    </p>
+                  </blockquote>
+
+                  <div className="mt-4 flex items-center gap-4">
+                    <Image
+                      alt="review"
+                      src="/review8.webp"
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
+                    />
+
+                    <div className="flex flex-row text-white items-center gap-2">
+                      <p className="flex text-lg">Warana</p>
+                      <div className="flex badge badge-success rounded-md font-bold text-md">
+                        5/5
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="mb-8 sm:break-inside-avoid">
                   <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
                     <p className="leading-relaxed text-white">
@@ -312,6 +340,6 @@ export default function ReviewsPage() {
   );
 }
 
-ReviewsPage.getLayout = function getLayout(page) {
-  return <ReviewsLayout>{page}</ReviewsLayout>;
-};
+// ReviewsPage.getLayout = function getLayout(page) {
+//   return <ReviewsLayout>{page}</ReviewsLayout>;
+// };

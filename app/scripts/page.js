@@ -1,4 +1,4 @@
-import ScriptsLayout from "./layout";
+// import ScriptsLayout from "./layout";
 import Image from "next/image";
 import Footer from "../components/footer";
 import { Manrope } from "next/font/google";
@@ -840,6 +840,6 @@ export default function ScriptsPage() {
   );
 }
 
-ScriptsPage.getLayout = function getLayout(page) {
-  return <ScriptsLayout>{page}</ScriptsLayout>;
-};
+// ScriptsPage.getLayout = function getLayout(page) {
+//   return <ScriptsLayout>{page}</ScriptsLayout>;
+// };
