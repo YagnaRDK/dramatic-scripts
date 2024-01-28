@@ -124,6 +124,47 @@ export default function ScriptsPage() {
                 <Image src={dmgctrl} alt="article-cover" />
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
+                <h2 className="card-title">Reports</h2>
+                <div className="badge badge-secondary">NEW</div>
+                <p>Well, someone needs to get some warnings now.</p>
+                <div className="card-actions justify-end">
+                  <a
+                    role="button"
+                    // className="btn btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                    href="https://dramatic.tebex.io/package/6102876"
+                  >
+                    Buy now
+                  </a>
+                  <a
+                    role="button"
+                    // className="btn glass btn-primary rounded-lg"
+                    className="btn text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                    href="/scripts/reports"
+                  >
+                    Know more{" "}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 32 32"
+                      className="w-4 h-4 fill-white"
+                    >
+                      <path
+                        d="m31.71 15.29-10-10-1.42 1.42 8.3 8.29H0v2h28.59l-8.29 8.29 1.41 1.41 10-10a1 1 0 0 0 0-1.41z"
+                        data-name="3-Arrow Right"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
+            <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
+              <figure>
+                <Image src={dmgctrl} alt="article-cover" />
+              </figure>
+              <div className="card-body text-white md:text-slate-300 hover:text-white">
                 <h2 className="card-title">Damage Control</h2>
                 <div className="badge badge-accent">FREE</div>
                 <p>Ouch! I am 50% down by just one hit?</p>
