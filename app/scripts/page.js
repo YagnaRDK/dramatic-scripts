@@ -20,6 +20,7 @@ import soundpack from "../../public/soundpack.png";
 import revival from "../../public/revival.png";
 import catcafe from "../../public/catcafe.png";
 import dmgctrl from "../../public/dmgctrl.png";
+import reports from "../../public/reports.png";
 
 const manrope = Manrope({
   weight: "400",
@@ -121,7 +122,7 @@ export default function ScriptsPage() {
           <div className="flex flex-col flex-1 place-content-center items-center w-full h-full m-2.5">
             <div className="card bg-gray-800 md:bg-gray-900 shadow-xl shadow_guju w-80 md:w-96">
               <figure>
-                <Image src={dmgctrl} alt="article-cover" />
+                <Image src={reports} alt="article-cover" />
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
                 <h2 className="card-title">Reports</h2>
@@ -167,7 +168,7 @@ export default function ScriptsPage() {
               <div className="card-body text-white md:text-slate-300 hover:text-white">
                 <h2 className="card-title">Damage Control</h2>
                 <div className="badge badge-accent">FREE</div>
-                <p>Ouch! I am 50% down by just one hit?</p>
+                <p>Ouch! I am 50% down by just one hit? Let me change it!</p>
                 <div className="card-actions justify-end">
                   <a
                     role="button"
@@ -207,7 +208,10 @@ export default function ScriptsPage() {
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
                 <h2 className="card-title">CatCafe</h2>
-                <p>Let the cats run the business!</p>
+                <p>
+                  Let cats run the business! I&apos;m sure, it will work out,
+                  don&apos;t you?
+                </p>
                 <div className="card-actions justify-end">
                   <a
                     role="button"
@@ -727,6 +731,7 @@ export default function ScriptsPage() {
               </figure>
               <div className="card-body text-white md:text-slate-300 hover:text-white">
                 <h2 className="card-title">Weapons on back</h2>
+                <div className="badge badge-accent">Popular</div>
                 <p>Get the wepons ready, war is about to start.</p>
                 <div className="card-actions justify-end">
                   <a
