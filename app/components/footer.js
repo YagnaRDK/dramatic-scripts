@@ -1,5 +1,9 @@
 "use client";
 import Image from "next/image";
+import DiscordSvg from "../../public/svgs/discord_svg.js";
+import YtSvg from "../../public/svgs/yt_svg.js";
+import InstaSvg from "../../public/svgs/insta_svg.js";
+import XSvg from "../../public/svgs/x_svg.js";
 
 export default function Footer() {
   return (
@@ -26,40 +30,44 @@ export default function Footer() {
       </div>
       <div className="flex flex-row md:ml-auto md:mr-20 md:gap-3">
         <a href="/discord">
-          <Image
-            src="/discord.svg"
-            alt=""
-            height={2}
-            width={25}
-            className="w-64 h-10 md:w-8 md:h-auto"
-          ></Image>
+          <DiscordSvg className="w-64 h-10 md:w-8 md:h-auto hover:fill-blue-800"></DiscordSvg>
+          {/* <Image
+                src="/discord.svg"
+                alt=""
+                height={2}
+                width={25}
+                className="w-64 h-10 md:w-8 md:h-auto"
+              ></Image> */}
         </a>
         <a href="/youtube">
-          <Image
-            src="/youtube.svg"
-            alt=""
-            height={2}
-            width={25}
-            className="w-64 h-10 md:w-8 md:h-auto"
-          ></Image>
+          <YtSvg className="w-64 h-10 md:w-8 md:h-auto hover:fill-red-600"></YtSvg>
+          {/* <Image
+                src="/youtube.svg"
+                alt=""
+                height={2}
+                width={25}
+                className="w-64 h-10 md:w-8 md:h-auto"
+              ></Image> */}
         </a>
         <a href="/x">
-          <Image
-            src="/twitter.svg"
-            alt=""
-            height={2}
-            width={25}
-            className="w-64 h-10 md:w-8 md:h-auto"
-          ></Image>
+          <XSvg className="w-64 h-10 md:w-8 md:h-auto hover:fill-blue-500"></XSvg>
+          {/* <Image
+                src="/twitter.svg"
+                alt=""
+                height={2}
+                width={25}
+                className="w-64 h-10 md:w-8 md:h-auto"
+              ></Image> */}
         </a>
         <a href="/instagram">
-          <Image
-            src="/instagram.svg"
-            alt=""
-            height={2}
-            width={25}
-            className="w-64 h-10 md:w-8 md:h-auto"
-          ></Image>
+          <InstaSvg className="w-64 h-10 md:w-8 md:h-auto hover:fill-pink-500"></InstaSvg>
+          {/* <Image
+                src="/instagram.svg"
+                alt=""
+                height={2}
+                width={25}
+                className="w-64 h-10 md:w-8 md:h-auto"
+              ></Image> */}
         </a>
       </div>
     </div>
