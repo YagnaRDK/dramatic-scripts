@@ -28,9 +28,9 @@ export default function Footer() {
           </a> */}
         </p>
       </div>
-      <div className="flex flex-row md:ml-auto md:mr-20 md:gap-3">
+      <div className="flex flex-row gap-3 md:ml-auto md:mr-20">
         <a href="/discord">
-          <DiscordSvg className="w-64 h-10 md:w-8 md:h-auto hover:fill-blue-800"></DiscordSvg>
+          <DiscordSvg className="w-10 h-10 md:w-8 md:h-auto hover:fill-blue-800"></DiscordSvg>
           {/* <Image
                 src="/discord.svg"
                 alt=""
@@ -40,7 +40,7 @@ export default function Footer() {
               ></Image> */}
         </a>
         <a href="/youtube">
-          <YtSvg className="w-64 h-10 md:w-8 md:h-auto hover:fill-red-600"></YtSvg>
+          <YtSvg className="w-10 h-10 md:w-8 md:h-auto hover:fill-red-600"></YtSvg>
           {/* <Image
                 src="/youtube.svg"
                 alt=""
@@ -50,7 +50,7 @@ export default function Footer() {
               ></Image> */}
         </a>
         <a href="/x">
-          <XSvg className="w-64 h-10 md:w-8 md:h-auto hover:fill-blue-500"></XSvg>
+          <XSvg className="w-10 h-10 md:w-8 md:h-auto hover:fill-blue-500"></XSvg>
           {/* <Image
                 src="/twitter.svg"
                 alt=""
@@ -60,7 +60,7 @@ export default function Footer() {
               ></Image> */}
         </a>
         <a href="/instagram">
-          <InstaSvg className="w-64 h-10 md:w-8 md:h-auto hover:fill-pink-500"></InstaSvg>
+          <InstaSvg className="w-10 h-10 md:w-8 md:h-auto hover:fill-pink-500"></InstaSvg>
           {/* <Image
                 src="/instagram.svg"
                 alt=""
