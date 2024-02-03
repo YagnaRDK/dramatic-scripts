@@ -97,6 +97,88 @@ export default function ReviewsPage() {
                 <div className="mb-8 sm:break-inside-avoid">
                   <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
                     <p className="leading-relaxed text-white">
+                      Spent 2 hours trying to get a free backpack script to
+                      function. Finally I found drp-backpacks. It&apos;s readme
+                      was simple to understand and it took my 2 mins to
+                      implement the new script. Fantastic script.
+                    </p>
+                  </blockquote>
+
+                  <div className="mt-4 flex items-center gap-4">
+                    <Image
+                      alt="review"
+                      src="/review11.webp"
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
+                    />
+
+                    <div className="flex flex-row text-white items-center gap-2">
+                      <p className="flex text-lg">ODD</p>
+                      <div className="flex badge badge-success rounded-md font-bold text-md">
+                        5/5
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mb-8 sm:break-inside-avoid">
+                  <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
+                    <p className="leading-relaxed text-white">
+                      I had a issue with my phone and @Assert Gaming helped me
+                      immediately.
+                    </p>
+                  </blockquote>
+
+                  <div className="mt-4 flex items-center gap-4">
+                    <Image
+                      alt="review"
+                      src="/review10.webp"
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
+                    />
+
+                    <div className="flex flex-row text-white items-center gap-2">
+                      <p className="flex text-lg">B0BKATA</p>
+                      <div className="flex badge badge-success rounded-md font-bold text-md">
+                        5/5
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mb-8 sm:break-inside-avoid">
+                  <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
+                    <p className="leading-relaxed text-white">
+                      I bought the Dramatic phone and had no issues with
+                      installing, easy and straight forward, had an issues with
+                      apps and opened a ticket and straight away fixed by Assert
+                      Gaming, great customer care.
+                    </p>
+                  </blockquote>
+
+                  <div className="mt-4 flex items-center gap-4">
+                    <Image
+                      alt="review"
+                      src="/review9.webp"
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
+                    />
+
+                    <div className="flex flex-row text-white items-center gap-2">
+                      <p className="flex text-lg">JakeTheLeak</p>
+                      <div className="flex badge badge-success rounded-md font-bold text-md">
+                        5/5
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mb-8 sm:break-inside-avoid">
+                  <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
+                    <p className="leading-relaxed text-white">
                       Excellent service, they were very friendly and helped me
                       solve my problems perfectly. Your scripts are amazing and
                       are a great change in the server, I would definitely buy
