@@ -48,6 +48,7 @@ export default function WeponBack() {
           <li>Support the common&apos;s Automatic Rifle in the game.</li>
           <li>Can add more weapons in Future.</li>
           <li>42+ Weapons Supported.</li>
+          <li>OX_Inventory is also supported.</li>
         </ul>
 
         <p className="w-7/12 font-bold text-2xl underline decoration-indigo-500 decoration-4 text-slate-200 md:text-4xl">

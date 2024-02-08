@@ -42,7 +42,11 @@ export default function Home() {
           to get things done quickly and easily.<br></br>
           <br></br> Overall, the Enhanced Dramatic Phone is a top-of-the-line
           device that provides a premium user experience with its sleek design,
-          optimized apps, and efficient communication features.
+          optimized apps, and efficient communication features.<br></br>
+          <br></br> Please note that the lockscreen feature shown in the YouTube
+          preview does not come with the script. It is due to extensive error
+          and bugs while it was tested out in the beta version. It might be
+          updated in future update of the script.
         </p>
 
         <p className="w-7/12 font-bold text-2xl underline decoration-indigo-500 decoration-4 text-slate-200 md:text-4xl">
