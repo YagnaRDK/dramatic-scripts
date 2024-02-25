@@ -16,46 +16,6 @@ export default function Home() {
     <>
       <div className="bgcustom min-h-screen flex flex-col items-start place-content-center w-full space-y-5">
         <div className="navbar navbar-center md:fixed md:top-0">
-          {/* <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
-            </label>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-            >
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
-            </ul>
-          </div> */}
           <a href="/">
             <Image
               src="/dsc-logo.png"
@@ -65,9 +25,6 @@ export default function Home() {
               className="ml-4"
             ></Image>
           </a>
-          {/* <a href="/" className="btn btn-ghost normal-case text-xl text-white">
-            Dramatic Scripts
-          </a> */}
         </div>
 
         <p className="font-extrabold text-4xl pt-4 md:pt-0 w-fit md:text-6xl ml-8 md:w-2/5 text-white">
@@ -139,74 +96,20 @@ export default function Home() {
 
         <div className="md:fixed md:bottom-0 md:gap-0 gap-3 items-center flex flex-col md:flex-row w-full outline outline-1 outline-slate-700 text-white p-3">
           <div className="items-center grid-flow-col">
-            <p>
-              Dramatic Scripts © 2023 - All right reserved
-              {/* <a href="/staff" className="hover:text-purple-500 btn btn-sm">
-                Staff team
-              </a>{" "}
-              |{" "} */}
-              {/* <a
-                href="/partners"
-                className="hover:text-purple-500 btn btn-sm mx-2"
-              >
-                Partners
-              </a>{" "}
-              |{" "}
-              <a
-                href="/terms"
-                className="hover:text-purple-500 btn btn-sm mx-2"
-              >
-                Terms
-              </a>{" "}
-              |{" "}
-              <a
-                href="/server"
-                className="hover:text-purple-500 btn btn-sm mx-2"
-              >
-                Server
-              </a> */}
-            </p>
+            <p>Dramatic Scripts © 2023 - 2024. All right reserved.</p>
           </div>
           <div className="flex flex-row gap-3 md:ml-auto md:mr-20">
             <a href="/discord">
               <DiscordSvg className="w-10 h-10 md:w-8 md:h-auto hover:fill-blue-800"></DiscordSvg>
-              {/* <Image
-                src="/discord.svg"
-                alt=""
-                height={2}
-                width={25}
-                className="w-64 h-10 md:w-8 md:h-auto"
-              ></Image> */}
             </a>
             <a href="/youtube">
               <YtSvg className="w-10 h-10 md:w-8 md:h-auto hover:fill-red-600"></YtSvg>
-              {/* <Image
-                src="/youtube.svg"
-                alt=""
-                height={2}
-                width={25}
-                className="w-64 h-10 md:w-8 md:h-auto"
-              ></Image> */}
             </a>
             <a href="/x">
               <XSvg className="w-10 h-10 md:w-8 md:h-auto hover:fill-blue-500"></XSvg>
-              {/* <Image
-                src="/twitter.svg"
-                alt=""
-                height={2}
-                width={25}
-                className="w-64 h-10 md:w-8 md:h-auto"
-              ></Image> */}
             </a>
             <a href="/instagram">
               <InstaSvg className="w-10 h-10 md:w-8 md:h-auto hover:fill-pink-500"></InstaSvg>
-              {/* <Image
-                src="/instagram.svg"
-                alt=""
-                height={2}
-                width={25}
-                className="w-64 h-10 md:w-8 md:h-auto"
-              ></Image> */}
             </a>
           </div>
         </div>
