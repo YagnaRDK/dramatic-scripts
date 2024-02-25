@@ -22,7 +22,7 @@ import catcafe from "../../public/catcafe.png";
 import dmgctrl from "../../public/dmgctrl.png";
 import reports from "../../public/reports.png";
 import pizza from "../../public/pizza.png";
-import bodycam from "../../public/bodycam .png";
+import bodycam from "../../public/bodycam.png";
 
 const manrope = Manrope({
   weight: "400",
