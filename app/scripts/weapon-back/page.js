@@ -42,13 +42,14 @@ export default function WeponBack() {
         <ul className="w-7/12 font-bold text-sm text-slate-200 md:text-lg list-outside list-disc">
           <li>Shows multiple weapons being carried in inventory.</li>
           <li>Can set the visible slot to be shown on the player.</li>
-          <li>Support the common Melee in the game.</li>
-          <li>Support the common&apos;s Pistols in the game.</li>
-          <li>Support the common Smgs in the game.</li>
-          <li>Support the common&apos;s Automatic Rifle in the game.</li>
-          <li>Can add more weapons in Future.</li>
-          <li>42+ Weapons Supported.</li>
+          <li>Support most of the Melee in the game.</li>
+          <li>Support most of the Pistols in the game.</li>
+          <li>Support most of the Smgs in the game.</li>
+          <li>Support most of the Automatic Rifle in the game.</li>
+          <li>You can add more weapons as per your needs.</li>
+          <li>80+ Weapons already installed.</li>
           <li>OX_Inventory is also supported.</li>
+          <li>Can disable and enable collision of the weapons.</li>
         </ul>
 
         <p className="w-7/12 font-bold text-2xl underline decoration-indigo-500 decoration-4 text-slate-200 md:text-4xl">
