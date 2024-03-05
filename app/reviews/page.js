@@ -94,6 +94,142 @@ export default function ReviewsPage() {
           <section>
             <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
               <div className="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
+                {/* Reviews Below */}
+                <div className="mb-8 sm:break-inside-avoid">
+                  <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
+                    <p className="leading-relaxed text-white">
+                      I would like to give a massive 1000/1000 for the help to
+                      Assert Gaming i would recommend getting scripts from these
+                      guys there amazing
+                    </p>
+                  </blockquote>
+
+                  <div className="mt-4 flex items-center gap-4">
+                    <Image
+                      alt="review"
+                      src="/review16.webp"
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
+                    />
+
+                    <div className="flex flex-row text-white items-center gap-2">
+                      <p className="flex text-lg">iimrtaco</p>
+                      <div className="flex badge badge-success rounded-md font-bold text-md">
+                        5/5
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mb-8 sm:break-inside-avoid">
+                  <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
+                    <p className="leading-relaxed text-white">
+                      Great scripts and great assistance from Assert Gaming.
+                      Loved the experience.
+                    </p>
+                  </blockquote>
+
+                  <div className="mt-4 flex items-center gap-4">
+                    <Image
+                      alt="review"
+                      src="/review15.webp"
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
+                    />
+
+                    <div className="flex flex-row text-white items-center gap-2">
+                      <p className="flex text-lg">DR4GO</p>
+                      <div className="flex badge badge-success rounded-md font-bold text-md">
+                        4.5/5
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mb-8 sm:break-inside-avoid">
+                  <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
+                    <p className="leading-relaxed text-white">
+                      I wanted to take a moment to extend my heartfelt gratitude
+                      for the exceptional support and quality of the phone I
+                      recently purchased. Your commitment to providing excellent
+                      products and service truly shines through. The reliability
+                      and performance of the device have exceeded my
+                      expectations, and I am genuinely impressed.
+                    </p>
+                  </blockquote>
+
+                  <div className="mt-4 flex items-center gap-4">
+                    <Image
+                      alt="review"
+                      src="/review14.webp"
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
+                    />
+
+                    <div className="flex flex-row text-white items-center gap-2">
+                      <p className="flex text-lg">Anony!</p>
+                      <div className="flex badge badge-success rounded-md font-bold text-md">
+                        5/5
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mb-8 sm:break-inside-avoid">
+                  <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
+                    <p className="leading-relaxed text-white">
+                      I had a issue with my phone and Assert Gaming helped me in
+                      no time, 10/10 service (highly recommend the phone)
+                    </p>
+                  </blockquote>
+
+                  <div className="mt-4 flex items-center gap-4">
+                    <Image
+                      alt="review"
+                      src="/review13.webp"
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
+                    />
+
+                    <div className="flex flex-row text-white items-center gap-2">
+                      <p className="flex text-lg">luv</p>
+                      <div className="flex badge badge-success rounded-md font-bold text-md">
+                        5/5
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mb-8 sm:break-inside-avoid">
+                  <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
+                    <p className="leading-relaxed text-white">
+                      They helped my issue and I got the product working so fast
+                      and its amazing 5/5 script 5/5 service.
+                    </p>
+                  </blockquote>
+
+                  <div className="mt-4 flex items-center gap-4">
+                    <Image
+                      alt="review"
+                      src="/review12.gif"
+                      width={48}
+                      height={48}
+                      className="rounded-full object-cover"
+                    />
+
+                    <div className="flex flex-row text-white items-center gap-2">
+                      <p className="flex text-lg">Akio</p>
+                      <div className="flex badge badge-success rounded-md font-bold text-md">
+                        5/5
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="mb-8 sm:break-inside-avoid">
                   <blockquote className="rounded-xl bg-gray-800 md:bg-gray-900 p-6 shadow">
                     <p className="leading-relaxed text-white">
