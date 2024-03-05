@@ -107,7 +107,7 @@ export default function ReviewsPage() {
                   <div className="mt-4 flex items-center gap-4">
                     <Image
                       alt="review"
-                      src="/review16.webp"
+                      src="/review16.png"
                       width={48}
                       height={48}
                       className="rounded-full object-cover"
@@ -133,7 +133,7 @@ export default function ReviewsPage() {
                   <div className="mt-4 flex items-center gap-4">
                     <Image
                       alt="review"
-                      src="/review15.webp"
+                      src="/review15.png"
                       width={48}
                       height={48}
                       className="rounded-full object-cover"
@@ -163,7 +163,7 @@ export default function ReviewsPage() {
                   <div className="mt-4 flex items-center gap-4">
                     <Image
                       alt="review"
-                      src="/review14.webp"
+                      src="/review14.png"
                       width={48}
                       height={48}
                       className="rounded-full object-cover"
@@ -189,7 +189,7 @@ export default function ReviewsPage() {
                   <div className="mt-4 flex items-center gap-4">
                     <Image
                       alt="review"
-                      src="/review13.webp"
+                      src="/review13.png"
                       width={48}
                       height={48}
                       className="rounded-full object-cover"
